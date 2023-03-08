@@ -1,0 +1,113 @@
+Curso Git
+
+url:https://skills.github.com/
+
+creacion de key ssh: https://kinsta.com/es/blog/generar-claves-ssh/
+
+
+config:
+//comando para ver la versioin de Git y revisar si esta instalado
+git --version
+
+//comandos para la configuracion de nuestro entorno de trabajo
+git config --global user.name "jalexGuerrero"
+git config --global user.email "johnalexguerrero@gmail.com"
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core.autocrlf input
+
+//comando para verificar los cambios realizados en la configuracion
+git config --list
+
+make folder
+mkdir invoiceclient & cd invoiceclient
+git init
+ls -a
+cd .git
+ls -a
+
+code .
+git status
+
+choose file
+git add archivo1.txt
+git status
+
+git commit -m "commit inicial"
+
+delete file
+git rm archivo1.txt
+git add archivo1.txt
+git status
+
+git commit -m "eliminando archivo 1"
+git status
+
+git rm archivo1.txt
+
+git restore --staged archivo1.txt
+git status
+
+git restore archivo1.txt
+
+move file
+mv archivo1.txt archivo.txt
+ls
+git status
+
+remenber file
+git add archivo1.txt archivo
+git status
+git commit -m "renombrando el archivo"
+
+.env file
+password=123234
+user=nicolas
+
+git status
+
+.gitignore file
+.env
+node_modules/
+
+git status
+git add .gitignore
+git commit -m "agregando gitignore"
+
+git status -s
+
+git diff
+q
+git add archivo2.txt
+
+git diff --staged
+
+git log
+
+git branch
+git checkout -b feactures/nombre-de-funcionalidad
+git branch
+git log --oneline
+cat archivo2.txt
+git checkout main
+
+git merge nombre-rama
+
+git push
+
+git branch -M main
+git remote add origin https://.git
+git push -u origin main
+
+key:
+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
+
+
+echo "# inventory_django" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JohnAlexGuerrero/inventory_django.git
+git push -u origin main
+

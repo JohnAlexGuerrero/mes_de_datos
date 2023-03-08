@@ -1,0 +1,19 @@
+documentacion oficial :https://git-scm.com/
+s
+Arbol de trabajo: conjunto de directorios y archivos anidados en el espacio de trabajo
+
+Repositorio: directorio situado en el nivel superior de un arbol de trabajo, donde Git mantiene todo el historial y los metadatos de un proyecto
+
+Hash: numero generado por una funcion hash que representa el contenido de un archivo u objecto como un numero de digitos fijo.
+
+Objecto: un repositorio Git contiene cuatro tipos de objectos, cada uno identificado de forma unica por un hash SHA-1, Un objecto blob contiene un archivo normal,
+un objecto arbol representa un directorio y contiene nombres valores hash y permisos. Un objecto de confirmacion representa una version especifica del arbol de trabajo. Una etiqueta es un nombre asociado a una confirmacion.
+
+Comfirmacion: es cuando se confirma los cambios realizados para que otros usuarios tambien puedan verlos.
+
+Rama: serie de nombres con confirmaciones vinculadas. la confirmacion mas reciente en una rama se denomina nivel superior. la rama predeterminada que se crea al inicializar un repositorio, se denomina main y suele tener el nombre de master en Git. el nivel superior de la rama actual se denomina 
+Head
+
+Remoto: refencia a otro repositorio de Git. cuando se crea un repositorio Git crea un remoto denominado origin que es el remoto predeterminado para las operaciones de envio e incorporacion de cambios
+
+
